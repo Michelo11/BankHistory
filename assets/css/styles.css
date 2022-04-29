@@ -268,20 +268,19 @@ hr.new3 {
     .navbar{
         margin-top: -10px !important;
         margin-left: -12px !important;
-        margin-right: -20px !important;
-        width: 375px;
+        padding-right: 20px;
+        width: 100%;
     }
     .fa-building-columns{
         margin-left: 10px;
     }
     .search-bar{
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: calc(2.5% - 2px);
         width: 90%;
     }
     .menu {
         margin-left: -33px;
-        margin-top: 15px;
+        margin-top: 20px;
     }
     .list {
         width: 90%;
@@ -301,12 +300,18 @@ hr.new3 {
         margin-top: -40px;
     }
     .line5 {
-        margin-left: 29px;
+        margin-left: 0;
+
     }
     .line6, .line7 {
         padding-left: 14px !important;
+        margin-right: 0 !important;
     }
     .line8 {
-        margin-left: 2px;
+        margin-left: 0px;
+    }
+    .navbar{
+
     }
 }
+
